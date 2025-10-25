@@ -1,2 +1,17 @@
-node_modules/
+# Ignore environment files and credentials
+.env
+*.ini
+__pycache__/
+*.pyc
 *.log
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore local system or editor files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
