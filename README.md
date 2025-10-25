@@ -93,13 +93,43 @@ EMAIL_PASS=yourpassword
 ### 4️⃣ Start Snort IDS
 ``` sudo snort -A fast -i <interface> -c /etc/snort/snort.conf ```
 
-5️⃣ Run the Real-Time Monitor
+### 5️⃣ Run the Real-Time Monitor
 ```python3 main_monitor.py```
 
-6️⃣ Launch the Flask Dashboard
+### 6️⃣ Launch the Flask Dashboard
 ```
 cd ../Dashboard
 python3 dashboard.py
 ```
 Then open:
 👉 http://127.0.0.1:5000/
+
+📊 Dashboard Preview
+
+(To be added — screenshot of your live dashboard)
+Displays live alerts, categorized by severity and timestamp.
+
+🔐 Future Enhancements
+
+Integration with SIEM tools (e.g., Splunk / ELK)
+
+Real-time graph visualizations (Grafana)
+
+Role-based access for dashboard users
+
+Machine learning–based anomaly detection module
+
+🧠 Author
+👤 [Cavinsan Selvaratnam] (https://www.linkedin.com/in/cavinsanselvaratnam/)
+Cyber Security and Networking Student
+BSc (Hons) in Cyber Security
+eSoft Metro Campus, Faculty of Science, Engineering and Computing
+
+📧 Email: cavinsanselvaratnam@gmail.com
+🌐 GitHub: itsmecavi
+
+📜 License
+This project is licensed under the MIT License — feel free to modify and enhance with credit.
+
+💬 Tagline
+"Detect. Alert. Defend — in Real-Time."
