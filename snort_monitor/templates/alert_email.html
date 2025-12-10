@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Alert - Snort IDS</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 40px 20px;">
+        <tr>
+            <td align="center">
+                <!-- Main Container -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);">
+                    
+                    <!-- Alert Header with Pulse Animation -->
+                    <tr>
+                        <td style="background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); padding: 40px 40px 30px; text-align: center; position: relative;">
+                            <div style="display: inline-block; width: 80px; height: 80px; background: rgba(255, 255, 255, 0.2); border-radius: 50%; margin-bottom: 20px; padding: 20px; backdrop-filter: blur(10px);">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 9V13M12 17H12.01M10.29 3.86L1.82 18C1.64537 18.3024 1.55299 18.6453 1.55201 18.9945C1.55103 19.3437 1.64149 19.6871 1.81442 19.9905C1.98735 20.2939 2.23672 20.5467 2.53771 20.7239C2.83869 20.9011 3.18079 20.9962 3.53 21H20.47C20.8192 20.9962 21.1613 20.9011 21.4623 20.7239C21.7633 20.5467 22.0126 20.2939 22.1856 19.9905C22.3585 19.6871 22.449 19.3437 22.448 18.9945C22.447 18.6453 22.3546 18.3024 22.18 18L13.71 3.86C13.5317 3.56611 13.2807 3.32312 12.9812 3.15448C12.6817 2.98585 12.3437 2.89725 12 2.89725C11.6563 2.89725 11.3183 2.98585 11.0188 3.15448C10.7193 3.32312 10.4683 3.56611 10.29 3.86Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">Security Alert Detected</h1>
+                            <p style="margin: 10px 0 0; color: rgba(255, 255, 255, 0.9); font-size: 16px;">Snort IDS has identified a medium to high severity threat</p>
+                        </td>
+                    </tr>
+
+                    <!-- Alert Badge -->
+                    <tr>
+                        <td style="padding: 0 40px;">
+                            <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; padding: 20px; margin: -20px 0 30px; border-radius: 8px;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                        <td style="vertical-align: middle; width: 30px;">
+                                            <span style="font-size: 24px;">⚠️</span>
+                                        </td>
+                                        <td style="vertical-align: middle; padding-left: 15px;">
+                                            <p style="margin: 0; color: #92400e; font-weight: 600; font-size: 14px;">PRIORITY: MEDIUM TO HIGH SEVERITY</p>
+                                            <p style="margin: 5px 0 0; color: #78350f; font-size: 13px;">Immediate attention required</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Alert Details -->
+                    <tr>
+                        <td style="padding: 0 40px 30px;">
+                            <h2 style="margin: 0 0 20px; color: #1f2937; font-size: 20px; font-weight: 600;">Alert Details</h2>
+                            
+                            <!-- Info Grid -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 25px;">
+                                <tr>
+                                    <td style="padding: 15px; background: #f9fafb; border-radius: 8px; border-left: 3px solid #dc2626;">
+                                        <p style="margin: 0 0 5px; color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">Alert Level</p>
+                                        <p style="margin: 0; color: #1f2937; font-size: 16px; font-weight: 600;">Medium to High (Level 3+)</p>
+                                    </td>
+                                </tr>
+                                <tr><td style="height: 10px;"></td></tr>
+                                <tr>
+                                    <td style="padding: 15px; background: #f9fafb; border-radius: 8px; border-left: 3px solid #dc2626;">
+                                        <p style="margin: 0 0 5px; color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">Detection System</p>
+                                        <p style="margin: 0; color: #1f2937; font-size: 16px; font-weight: 600;">Snort Intrusion Detection System</p>
+                                    </td>
+                                </tr>
+                                <tr><td style="height: 10px;"></td></tr>
+                                <tr>
+                                    <td style="padding: 15px; background: #f9fafb; border-radius: 8px; border-left: 3px solid #dc2626;">
+                                        <p style="margin: 0 0 5px; color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600;">Timestamp</p>
+                                        <p style="margin: 0; color: #1f2937; font-size: 16px; font-weight: 600;">{{timestamp}}</p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Message Box -->
+                            <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 20px; margin-bottom: 25px;">
+                                <p style="margin: 0 0 10px; color: #1e40af; font-weight: 600; font-size: 14px;">📊 Recommended Action</p>
+                                <p style="margin: 0; color: #1e3a8a; font-size: 14px; line-height: 1.6;">Please review the security dashboard immediately to assess the threat details, affected systems, and take appropriate remediation actions.</p>
+                            </div>
+
+                            <!-- CTA Button -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td align="center" style="padding: 20px 0;">
+                                        <a href="http://127.0.0.1:5000" style="display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%); color: #ffffff; text-decoration: none; padding: 16px 40px; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3); transition: transform 0.2s;">
+                                            🔍 View Security Dashboard
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="margin: 15px 0 0; text-align: center; color: #6b7280; font-size: 13px;">
+                                Dashboard URL: <a href="http://127.0.0.1:5000" style="color: #dc2626; text-decoration: none; font-weight: 500;">http://127.0.0.1:5000</a>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Security Tips -->
+                    <tr>
+                        <td style="padding: 0 40px 40px;">
+                            <div style="background: #f3f4f6; border-radius: 8px; padding: 20px;">
+                                <h3 style="margin: 0 0 15px; color: #1f2937; font-size: 16px; font-weight: 600;">🛡️ Security Best Practices</h3>
+                                <ul style="margin: 0; padding-left: 20px; color: #4b5563; font-size: 14px; line-height: 1.8;">
+                                    <li>Verify the alert details in the dashboard</li>
+                                    <li>Check affected network segments and hosts</li>
+                                    <li>Review firewall and access logs</li>
+                                    <li>Document any suspicious activity</li>
+                                    <li>Update incident response team if necessary</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background: #f9fafb; padding: 30px 40px; border-top: 1px solid #e5e7eb;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <p style="margin: 0 0 10px; color: #1f2937; font-size: 14px; font-weight: 600;">Snort IDS Monitoring System</p>
+                                        <p style="margin: 0 0 5px; color: #6b7280; font-size: 13px;">This is an automated security notification</p>
+                                        <p style="margin: 0; color: #9ca3af; font-size: 12px;">© 2025 Security Operations Center. All rights reserved.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; padding-top: 20px;">
+                                        <div style="display: inline-block; background: #ffffff; padding: 12px 24px; border-radius: 6px; border: 1px solid #e5e7eb;">
+                                            <p style="margin: 0; color: #4b5563; font-size: 12px;">Need Help? Contact: <a href="mailto:security@company.com" style="color: #dc2626; text-decoration: none; font-weight: 600;">security@company.com</a></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,17 +1,9 @@
-# Ignore environment files and credentials
 .env
-*.ini
+*.env
+alerts.db
+snort_monitor/alerts.db
+snort_monitor/.env.save
 __pycache__/
 *.pyc
-*.log
-
-# Ignore virtual environment folders
-venv/
-env/
-
-# Ignore local system or editor files
-.DS_Store
-*.swp
-.idea/
-.vscode/
+snort_monitor/logs/
 
